@@ -1,7 +1,5 @@
 
 # FORGIT ENV
-source /usr/share/doc/fzf/examples/key-bindings.zsh
-source /usr/share/doc/fzf/examples/completion.zsh
 # export FORGIT_FZF_DEFAULT_OPTS="--height 40% --reverse --border --ansi --prompt='Forgit> '"
 # export FORGIT_FZF_DEFAULT_OPTS="--height 40% --reverse --border --ansi --prompt='Forgit> ' --preview 'bat --color=always --style=header,grid --line-range :500 {}'"
 # export FORGIT_FZF_DEFAULT_OPTS="--highlight-line --wrap --preview-window='right:60%' --preview 'bat --color=always --style=header,grid --line-range :500 {}'"
@@ -64,3 +62,6 @@ als gfod 'git fetch origin dev'
 als gcod 'gco origin/dev'
 als gfcod 'gfod && gcod'
 als griod 'git rebase -i origin/dev'
+
+# EVALS
+eval "$(starship init zsh)"
